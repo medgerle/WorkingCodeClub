@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # What my website will look like!
   I have created three pages:
   1. Home page ![homepage](1-Homepage.png)
@@ -16,6 +15,3 @@
     - Side bar has navigation links to homepage and other pages related to Code Club
     - Body is two basic paragraphs explaining concept of the program
     - Relevant and fun pictures on the right
-=======
-
->>>>>>> 237c316fef299dc0c6c60c57a7d65fd9d2fc847b
