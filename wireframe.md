@@ -14,4 +14,4 @@
     - Main picture will be of something relevant to club
     - Side bar has navigation links to homepage and other pages related to Code Club
     - Body is two basic paragraphs explaining concept of the program
-    - Relevant and fun pictures on the right 
+    - Relevant and fun pictures on the right
