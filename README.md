@@ -14,11 +14,11 @@ A club that meets weelky after school to learn basic coding skills to create any
 I decided to start this project for high school students in the Chicago area because of the lack of opportunity. I can use my privilege to their advantage so that they can learn the skills necessary to succeed in the world they will be entering once leaving school. Too often is education neglected and infrequently updated to suite the students' needs.
 
 ## Personas
-- ![Princess](Persona1.png)
+- ![Princess](Images/Persona1.png)
   - **User Story: As a _student_ I want to _try another extracurricular activity_ so that _I can make more friends._**
-- ![Markeese](Persona2.png)
+- ![Markeese](Images/Persona2.png)
   - **User Story: As a _student_ I want to _add another extracurricular activity to my list_ so that _I can look more desirable to colleges._**
-- ![Jada](Persona3.png)
+- ![Jada](Images/Persona3.png)
   - **User Story: As a _student_ I want to _try new things_ so that _I can learn more and find what I'm looking for in my future._**
 
 ### User Flow

@@ -21,9 +21,9 @@
   - **Government** may not care to increase budget
 
 ## Personas
-![First Persona - Princess](Persona1.png)
-![Second Persona - Markeese](Persona2.png)
-![Third Persona - Jada](Persona3.png)
+![First Persona - Princess](Images/Persona1.png)
+![Second Persona - Markeese](Images/Persona2.png)
+![Third Persona - Jada](Images/Persona3.png)
 
 ## Brainstorm Features
 1. Sign up
