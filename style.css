@@ -1,9 +1,46 @@
-/* I've gotten you started to show how each element lives in a box! */
-* {
-                          /* Content is the stuff IN the element */
-  padding: 10px;          /* Padding is white space AROUND content */
-  border: red 2px solid;  /* Border is the OUTLINE of the element */
-  margin: 5px;            /* Margin is the space BETWEEN elements */
+body {
+  padding: 10px;
+  border: goldenrod 3px solid;
+  margin: 5px;
+  background-color: grey;
 }
 
-/* When you're ready to write your CSS, Erase the above code! */
+header {
+      padding: 10px;
+      border: purple 2px dashed;
+      margin: 5px;
+      text-align: center;
+}
+
+div {
+    border: purple 2px dashed;
+}
+
+h1{
+    font-family: georgia;
+    font-size: 50px;
+    color: gold;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: goldenrod;
+}
+
+h3 {
+    font-style: italic;
+    font-family: monospace;
+    color: pink;
+    font-size: 20px;
+}
+
+a {
+    color: white;
+    text-align: center;
+}
+
+footer {
+        text-align: center;
+}
