@@ -1,0 +1,66 @@
+body {
+	font-family:georgia;
+	font-size:12px;
+	cursor:default;
+	color:AAAAAA
+}
+
+header {
+      text-align: center;
+}
+
+h1{
+  text-align: center;
+  font-size: 32px;
+  font-family: georgia;
+}
+
+table, th, td {
+      border: 1px solid black;
+}
+
+#nav {
+  padding: 10px;
+  font-family:georgia;
+	font-size:12px;
+	cursor:default;
+  color:purple;
+}
+
+a {
+	color:3A88C2;
+	text-decoration:none;
+	font-size:16px
+}
+
+a:hover {
+	color:3A88C2;
+	text-decoration:underline;
+}
+
+input {
+	border-width:1;
+	font-family:georgia;
+	font-size:12px;
+	padding:2px;
+	height:21px;
+	border-color:CCCCCC;
+	border-style:solid;
+	background-color:F9F9F9;
+	color:999999
+}
+
+.logo{
+	font-size:35px;
+	color:#ffffff;
+	font-family:Times;
+}
+
+.slogan{
+	font-size:14px;
+	color:ffffff;
+	padding:0 0 0 10;
+}
+
+.class1{
+	font-size:18px;
