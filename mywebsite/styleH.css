@@ -1,8 +1,9 @@
 body {
+  margin: 2%;
 	font-family:georgia;
 	font-size:12px;
 	cursor:default;
-	color:AAAAAA
+	background-color: grey;
 }
 
 header {
@@ -13,13 +14,35 @@ h1{
   text-align: center;
   font-size: 32px;
   font-family: georgia;
+  color: gold;
 }
 
 table, th, td {
       border: 1px solid black;
 }
+td {
+  vertical-align: bottom;
+  color: purple;
+  padding:5px;
+}
+th{
+  color: gold;
+}
+.section {
+      width:60%;
+      display: inline-block;
+      vertical-align: top;
+      padding: 10px;
+      font-size: 16px;
+}
+
+#prof-img {
+      width: 100%;
+}
 
 #nav {
+  display:inline-block;
+  width: 25%;
   padding: 10px;
   font-family:georgia;
 	font-size:12px;
@@ -28,7 +51,7 @@ table, th, td {
 }
 
 a {
-	color:3A88C2;
+	color: purple;
 	text-decoration:none;
 	font-size:16px
 }
@@ -37,7 +60,7 @@ a:hover {
 	color:3A88C2;
 	text-decoration:underline;
 }
-
+/*  style i like that i dont have yet:
 input {
 	border-width:1;
 	font-family:georgia;
@@ -64,3 +87,4 @@ input {
 
 .class1{
 	font-size:18px;
+*/
