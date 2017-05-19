@@ -1,0 +1,76 @@
+body {
+  font-family: georgia;
+  font-size: 16px;
+  background-color: lightgrey;
+}
+
+table, th, td {
+  border: 2px solid maroon;
+  border-collapse: collapse;
+  padding: 5px;
+  table-layout: fixed;
+}
+th {
+    background-color: maroon;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 5px;
+    color: goldenrod;
+}
+
+.previous {
+  box-shadow: 1px;
+  color: gold;
+  background-color: purple;
+  width: 10%;
+  font-family: georgia;
+  padding: 2px;
+}
+.next {
+  box-shadow: 1px;
+  color: gold;
+  background-color: purple;
+  width: 10%;
+  font-family: georgia;
+  padding: 2px;
+}
+
+#calendarthings {
+    display: inline-block;
+    vertical-align: top;
+    width: 65%;
+    padding: 10px;
+}
+#calendartable {
+    font-size: 12px;
+    width: 100%;
+}
+#important {
+    color: red;
+}
+
+#nav {
+  display:inline-block;
+  vertical-align: top;
+  width: 20%;
+  padding: 10px;
+  font-family:georgia;
+	font-size:16px;
+	cursor:default;
+  color:purple;
+}
+#owl {
+  width: 100%;
+}
+
+a {
+	color: purple;
+	text-decoration:none;
+}
+a:hover {
+	color:3A88C2;
+	text-decoration:underline;
+}

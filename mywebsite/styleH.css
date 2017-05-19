@@ -3,7 +3,7 @@ body {
 	font-family:georgia;
 	font-size:12px;
 	cursor:default;
-	background-color: grey;
+	background-color: lightgrey;
 }
 
 header {
@@ -14,7 +14,7 @@ h1{
   text-align: center;
   font-size: 32px;
   font-family: georgia;
-  color: gold;
+  color: goldenrod;
 }
 
 table, th, td {
@@ -26,7 +26,7 @@ td {
   padding:5px;
 }
 th{
-  color: gold;
+  color: goldenrod;
 }
 .section {
       width:60%;
