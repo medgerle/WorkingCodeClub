@@ -1,0 +1,60 @@
+
+#nav {
+  display:inline-block;
+  vertical-align: top;
+  width: 20%;
+  padding: 10px;
+  font-family:georgia;
+	font-size:16px;
+	cursor:default;
+  color:purple;
+}
+#prof-img {
+    width: 90%;
+    border-color: goldenrod;
+    border-style: groove;
+    border-width: thin;
+}
+
+.section {
+      width:50%;
+      display: inline-block;
+      vertical-align: top;
+      align-self: center;
+      padding: 5px;
+      font-size: 14px;
+      line-height: 150%;
+}
+
+body {
+  margin: 2%;
+	font-family:georgia;
+	font-size:14px;
+	cursor:default;
+	background-color: lightgrey;
+}
+
+header {
+    text-align: center;
+    padding: 5px;
+    color: goldenrod;
+}
+h1{
+  text-align: center;
+  font-size: 32px;
+  font-family: georgia;
+  color: goldenrod;
+}
+h3 {
+  color: purple;
+  font-size: 20px;
+}
+
+a {
+	color: purple;
+	text-decoration:none;
+}
+a:hover {
+	color:3A88C2;
+	text-decoration:underline;
+}

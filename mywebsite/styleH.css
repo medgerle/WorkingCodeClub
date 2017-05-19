@@ -1,8 +1,7 @@
 body {
   margin: 2%;
-	font-family:georgia;
-	font-size:12px;
-	cursor:default;
+	font-family: georgia;
+	font-size: 12px;
 	background-color: lightgrey;
 }
 
@@ -29,20 +28,25 @@ th{
   color: goldenrod;
 }
 .section {
-      width:60%;
+      width:50%;
       display: inline-block;
       vertical-align: top;
+      align-self: center;
       padding: 10px;
       font-size: 16px;
 }
 
 #prof-img {
-      width: 100%;
+      width: 90%;
+      border-color: goldenrod;
+      border-style: groove;
+      border-width: thin;
 }
 
 #nav {
   display:inline-block;
-  width: 25%;
+  vertical-align: top;
+  width: 20%;
   padding: 10px;
   font-family:georgia;
 	font-size:12px;
