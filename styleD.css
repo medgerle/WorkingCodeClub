@@ -1,0 +1,46 @@
+body {
+  padding: 10px;
+  border: goldenrod 3px solid;
+  margin: 5px;
+  background-color: grey;
+}
+
+header {
+      padding: 10px;
+      border: purple 2px dashed;
+      margin: 5px;
+      text-align: center;
+}
+
+div {
+    border: purple 2px dashed;
+}
+
+h1{
+    font-family: georgia;
+    font-size: 50px;
+    color: gold;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: goldenrod;
+}
+
+h3 {
+    font-style: italic;
+    font-family: monospace;
+    color: pink;
+    font-size: 20px;
+}
+
+a {
+    color: white;
+    text-align: center;
+}
+
+footer {
+        text-align: center;
+}

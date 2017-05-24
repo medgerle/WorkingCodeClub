@@ -1,0 +1,134 @@
+
+#nav {
+  display:inline-block;
+  vertical-align: top;
+  width: 20%;
+  padding: 10px;
+  font-family:georgia;
+	font-size:12px;
+	cursor:default;
+  color:purple;
+}
+
+#prof-img {
+      width: 90%;
+      border-color: goldenrod;
+      border-style: groove;
+      border-width: thin;
+}
+
+#owl {
+  width: 100%;
+}
+
+#calendarthings {
+    display: inline-block;
+    vertical-align: top;
+    width: 65%;
+    padding: 10px;
+}
+
+#calendartable {
+    font-size: 12px;
+    width: 100%;
+}
+
+#important {
+    color: red;
+}
+
+#words {
+    width: 70%;
+    align-items:center;
+  }
+
+body {
+  margin: 2%;
+	font-family: georgia;
+	font-size: 12px;
+  cursor:default;
+	background-color: lightgrey;
+}
+
+header {
+    text-align: center;
+    padding: 5px;
+    color: goldenrod;
+}
+
+h1{
+  text-align: center;
+  font-size: 32px;
+  font-family: georgia;
+  color: goldenrod;
+}
+
+h2 {
+  color: goldenrod;
+  font-size: 28px;
+}
+
+h3 {
+  color: purple;
+  font-size: 18px;
+}
+
+p {
+  line-height: 150%;
+  font-size: 14px;
+}
+
+table, th, td {
+  border: 2px solid maroon;
+  border-collapse: collapse;
+  padding: 5px;
+  table-layout: fixed;
+}
+
+td {
+  color: black;
+  padding:5px;
+}
+
+th {
+    background-color: maroon;
+    color: white;
+}
+
+a {
+	color: purple;
+	text-decoration:none;
+	font-size:16px
+}
+
+a:hover {
+	color:3A88C2;
+	text-decoration:underline;
+}
+
+.section {
+      width:50%;
+      display: inline-block;
+      vertical-align: top;
+      align-self: center;
+      padding: 10px;
+      font-size: 14px;
+      line-height: 150%;
+}
+
+.previous {
+  box-shadow: 1px;
+  color: gold;
+  background-color: purple;
+  width: 10%;
+  font-family: georgia;
+  padding: 2px;
+}
+.next {
+  box-shadow: 1px;
+  color: gold;
+  background-color: purple;
+  width: 10%;
+  font-family: georgia;
+  padding: 2px;
+}
