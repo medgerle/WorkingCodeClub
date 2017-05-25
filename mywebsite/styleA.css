@@ -21,10 +21,10 @@
       display: inline-block;
       vertical-align: top;
       align-self: center;
-      padding: 5px;
+      padding: 10px;
       font-size: 14px;
       line-height: 150%;
-      box-shadow: 
+      box-shadow: 0 3px 7px rgba(50,50,50,0.75);
 }
 
 body {
@@ -32,7 +32,10 @@ body {
 	font-family:georgia;
 	font-size:14px;
 	cursor:default;
-	background-color: lightgrey;
+  background-image: url("wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 header {
@@ -40,6 +43,7 @@ header {
     padding: 5px;
     color: goldenrod;
 }
+
 h1{
   text-align: center;
   font-size: 32px;

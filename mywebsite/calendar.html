@@ -10,8 +10,7 @@
  <div id="content">
   <header>
     <h1 id="calendartitle">Ms. Dallal's Academic Calendar</h1>
-    <p>Here you can find any assignments and important events by month.</p>
-    <p><strong> May 2017 </strong></p>
+    <h2><strong> May 2017 </strong></h2>
   </header>
   <div id="nav">
     <img id="owl" src="owl.png">
@@ -28,8 +27,9 @@
   <div id="calendarthings">
     <button class="previous">Previous</button>
     <button class="next">Next</button>
-    <table id="calendartable">
-          <thead>
+    <div class="calendar-border">
+    <table id="calendar-table">
+          <thead id="calendar-head">
           <tr>
            <th>SUN</th>
            <th>MON</th>
@@ -40,7 +40,7 @@
            <th>SAT</th>
           </tr>
           </thead>
-      <tbody><tr><td colspan="1">&nbsp;</td>
+      <tbody id="calendar-body"><tr><td colspan="1">&nbsp;</td>
         <td class="day" rel="2017-05-01">
           <span class="number">May 1</span>
           <p id="geo"><a href=""> Geo HW </p>
@@ -170,6 +170,7 @@
         <td colspan="3">&nbsp;</td></tr>
       </tbody>
     </table>
+    </div>
   </div>
   <div id="calendarexplanation">
     <p> The calendar provides links to homework assignments or resources. Any important dates, such as school holidays or school testing, are denoted in red.</p>

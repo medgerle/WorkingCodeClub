@@ -4,6 +4,7 @@
   vertical-align: top;
   width: 20%;
   padding: 10px;
+  padding-top: 0;
   font-family:georgia;
 	font-size:12px;
 	cursor:default;
@@ -15,11 +16,19 @@
       border-color: goldenrod;
       border-style: groove;
       border-width: thin;
+      box-shadow: 0 3px 7px rgba(50,50,50,0.75);
 }
 
 #owl {
   width: 100%;
 }
+
+#words {
+    width: 70%;
+    align-items:center;
+    padding: inherit;
+    padding-top: 0;
+  }
 
 #calendarthings {
     display: inline-block;
@@ -28,37 +37,56 @@
     padding: 10px;
 }
 
-#calendartable {
+#calendar-table {
     font-size: 12px;
     width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#calendar-head th:first-child {
+  border-top-left-radius: 25px;
+}
+
+#calendar-head th:last-child {
+  border-top-right-radius: 25px;
+}
+
+#homeinfo {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+#homeinfo-head {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
 }
 
 #important {
     color: red;
 }
 
-#words {
-    width: 70%;
-    align-items:center;
-  }
-
 body {
   margin: 2%;
 	font-family: georgia;
 	font-size: 12px;
   cursor:default;
-	background-color: lightgrey;
+  background-image: url("wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 header {
     text-align: center;
+    text-shadow: 2px 2px darkgoldenrod;
     padding: 5px;
     color: goldenrod;
 }
 
 h1{
   text-align: center;
-  font-size: 32px;
+  font-size: 34px;
   font-family: georgia;
   color: goldenrod;
 }
@@ -71,6 +99,7 @@ h2 {
 h3 {
   color: purple;
   font-size: 18px;
+  margin-top: 0;
 }
 
 p {
@@ -78,32 +107,43 @@ p {
   font-size: 14px;
 }
 
-table, th, td {
-  border: 2px solid maroon;
-  border-collapse: collapse;
+table, td {
   padding: 5px;
   table-layout: fixed;
 }
 
 td {
+  border: 2px solid maroon;
+  border-collapse: collapse;
   color: black;
   padding:5px;
+
 }
 
 th {
     background-color: maroon;
     color: white;
+    padding: 5px;
 }
 
 a {
 	color: purple;
-	text-decoration:none;
-	font-size:16px
+	text-decoration: none;
+	font-size: 16px
 }
 
 a:hover {
-	color:3A88C2;
-	text-decoration:underline;
+	color: 3A88C2;
+	text-decoration: underline;
+}
+
+.deco {
+  display: inline-block;
+  vertical-align: top;
+  width: 60%;
+  padding: 10px;
+  padding-left: 15px;
+  box-shadow: -18px -16px 48px -5px rgba(0,0,0,0.5);
 }
 
 .section {
@@ -112,6 +152,7 @@ a:hover {
       vertical-align: top;
       align-self: center;
       padding: 10px;
+      padding-top: 0;
       font-size: 14px;
       line-height: 150%;
 }
@@ -119,16 +160,19 @@ a:hover {
 .previous {
   box-shadow: 1px;
   color: gold;
-  background-color: purple;
+  background-color: #330033;
   width: 10%;
   font-family: georgia;
   padding: 2px;
+
 }
+
 .next {
   box-shadow: 1px;
   color: gold;
-  background-color: purple;
+  background-color: #330033;
   width: 10%;
   font-family: georgia;
   padding: 2px;
+
 }
