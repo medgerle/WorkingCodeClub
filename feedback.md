@@ -1,5 +1,5 @@
 # Intro to Feedback
-- ## Being specific!
+  ## Being specific!
 - Be neutral
 - Asking the right questions:
   - Ask users to answer "I like...", "I wish..", "What if..."
@@ -14,5 +14,5 @@
 # IDEAS
 
 # List of Actionable Steps
-- ## Steps to take to improve project from received feedback
+  ## Steps to take to improve project from received feedback
   
