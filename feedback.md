@@ -1,5 +1,5 @@
 # Intro to Feedback
-  ## Being specific!
+  ## Be specific!
 - Be neutral
 - Asking the right questions:
   - Ask users to answer "I like...", "I wish..", "What if..."
